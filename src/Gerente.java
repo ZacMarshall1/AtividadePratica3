@@ -12,6 +12,13 @@ public class Gerente extends Funcionario
         this.equipe = new ArrayList<>();
     }
 
+    public Gerente()
+    {
+        super(0, "", 0, 0.0f);
+        this.bonusAnual = 0.0f;
+        this.equipe = new ArrayList<>();
+    }
+
     public float getBonusAnual()
     {
         return bonusAnual;

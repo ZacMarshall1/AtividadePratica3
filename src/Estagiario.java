@@ -10,6 +10,13 @@ public class Estagiario extends Funcionario
         this.supervisor = supervisor;
     }
 
+    public Estagiario()
+    {
+        super(0, "", 0, 0.0f);
+        this.horasTrabalhadas = 0;
+        this.supervisor = "";
+    }
+
     public int getHorasTrabalhadas() 
     {
         return horasTrabalhadas;

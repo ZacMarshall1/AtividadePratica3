@@ -8,6 +8,12 @@ public class Programador extends Funcionario
         this.tecnologias = tecnologias;
     }
 
+    public Programador()
+    {
+        super(0, "", 0, 0.0f);
+        this.tecnologias = new String[0];
+    }
+
     public String[] getTecnologias()
     {
         return tecnologias;
